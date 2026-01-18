@@ -1,7 +1,7 @@
 package model;
 
 
-// enum prevents invalid values and helps to represent a fixed set of related constants
+// enums prevents invalid values and helps to represent a fixed set of related constants
 public enum Category {
     FOOD,
     TRAVEL,
