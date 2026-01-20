@@ -4,7 +4,7 @@ import model.Income;
 
 import java.util.ArrayList;
 import java.util.List;
-
+//Income service
 public class IncomeService {
 
     private List<Income> incomes = new ArrayList<>();
