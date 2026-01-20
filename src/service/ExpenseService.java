@@ -4,7 +4,7 @@ import model.Expense;
 
 import java.util.ArrayList;
 import java.util.List;
-
+// Expense service
 public class ExpenseService {
 
     private List<Expense> expenses = new ArrayList<>();
