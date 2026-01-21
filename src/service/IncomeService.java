@@ -2,15 +2,21 @@ package service;
 
 import model.Income;
 
-import java.util.ArrayList;
 import java.util.List;
-//Income service
+
 public class IncomeService {
 
-    private List<Income> incomes = new ArrayList<>();
+    private static final String INCOME_FILE = "data/income.dat";
+
+    private List<Income> incomes;
+
+    public IncomeService() {
+        incomes = FileService.loadFromFile(INCOME_FILE);
+    }
 
     public void addIncome(Income income) {
         incomes.add(income);
+        FileService.saveToFile(incomes, INCOME_FILE);
     }
 
     public List<Income> getAllIncomes() {
