@@ -4,6 +4,7 @@ import model.Income;
 
 import java.util.List;
 
+// Income service
 public class IncomeService {
 
     private static final String INCOME_FILE = "data/income.dat";
