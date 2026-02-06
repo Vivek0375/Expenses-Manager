@@ -4,6 +4,7 @@ import model.Expense;
 
 import java.util.List;
 
+// expenses service
 public class ExpenseService {
 
     private static final String EXPENSE_FILE = "data/expenses.dat";
