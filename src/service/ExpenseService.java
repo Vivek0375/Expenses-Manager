@@ -4,7 +4,7 @@ import model.Expense;
 
 import java.util.List;
 
-// expenses service class has been
+// expenses service class has been changed
 public class ExpenseService {
 
     private static final String EXPENSE_FILE = "data/expenses.dat";
